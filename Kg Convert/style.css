@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color:rgb(54, 255, 47);
+    height:50vh ;
+}
+.container{
+    background-color: #ffffff;
+    width: 90vw;
+    font-size: 16px;
+    max-width: 28rem;
+    padding: 3rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-shadow:0px 10px 10px rgba(0, 0,0,0.4) ;
+}
+
+
+.form input{
+display: block;
+    width: 100%;
+    font-size: 1.35rem;
+padding: 0.4rem;
+border: 1px solid gray;
+margin-bottom: 0.25em;
+}
+.form label{
+display: block;
+    width: 100%;
+    font-size: 1.1rem;
+font-weight: 600;
+margin-bottom: 0.25em;
+}
+.form:not(:last-child){
+    margin-bottom: 1.2em;
+}
+
+@media screen and(max-width:28em) {
+    .container{
+        font-size: 14px;
+    }
+}
